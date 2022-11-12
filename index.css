@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Open+Sans:ital,wght@1,300&family=Roboto+Condensed:wght@300;400&display=swap');
+
+/*Resets CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    height: 1000px;
+    
+}
+
+
+/*====Nav Bar====*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+.navbar .navbar__left .navbar__left-logo{
+    font-weight: 700;
+    font-style: 20px;
+    line-height: 24px;
+}
+.navbar .navbar__right .navbar__right-list{
+    display: flex;
+}
+
+.navbar .navbar__right .navbar__right-list li{
+    list-style: none; 
+    margin-left: 50px;   
+}
+
+.navbar .navbar__right .navbar__right-list .icon__menu{
+    display: none;
+}
+
+.navbar .navbar__right .navbar__right-list li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #272D38;
+}
+
+
+/* === Hero section ===*/
+
+.h-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.h-section .h-section__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.h-section .h-section__left h2{
+    font-weight: 700;
+    font-size: 64px;
+    height: auto;
+    line-height: 100%;
+    max-width: 540px;
+}
+
+.h-section .h-section__left p{
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 500px;
+    height: auto;
+    color: #272D38;
+}
+
+.h-section .h-section__left button{
+    max-width: 167px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background-color:#8eadd5;
+    text-transform: uppercase;
+    font-weight: 700px ;
+    color: #fff;
+}
+
+.h-section .h-section__right img{
+    width: 100%;
+}
+
+
+/*    companies section     */
+
+.c-section{
+    margin-top: 160px;
+    
+}
+.c-section .c-section__text{
+    text-align: center;
+    color: #667085;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+
+.c-section .c-section__img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*Branding section*/
+
+
+.b-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 136px;
+}
+
+.b-section .b-section__left img{
+    width: 100%;
+}
+
+.b-section .b-section__right h2{
+    width: 435.69px;
+    height: 102.35px;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #272D38;
+    margin-bottom: 26px;
+}
+
+.b-section .b-section__right p{
+    width: 392.22px;
+    height: 83.16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #272D38;
+    margin-bottom: 46px;
+
+}
+
+.b-section .b-section__right i.mobile{
+    
+}
