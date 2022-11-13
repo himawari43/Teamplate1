@@ -22,7 +22,7 @@ body{
             display: none;
     }
 
-    .navbar .navbar__right .navbar__right-list li:nth-child(5){
+    .navbar .navbar__right .navbar__right-list i{
             display: block;
     }
 
@@ -94,6 +94,8 @@ body{
     .b-section .b-section__right i.mobile{
         display: block;
         text-align: center;
+        font-size: 10px;
+    
     }
 
 
@@ -155,9 +157,9 @@ body{
 
     .contact-section{
         flex-direction: column;
-        margin-top: 120px;
-        margin-bottom: 273px;
-        border-radius: 10px;
+        padding-top: 56px ;
+        padding-bottom: 48px;
+        
     }
 
     .contact-section .contact-section__left img{

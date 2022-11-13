@@ -11,8 +11,6 @@
 .container{
     width: 80%;
     margin: 0 auto;
-    height: 1000px;
-    
 }
 
 
@@ -36,8 +34,9 @@
     margin-left: 50px;   
 }
 
-.navbar .navbar__right .navbar__right-list .icon__menu{
+.navbar .navbar__right .navbar__right-list i{
     display: none;
+    font-size: 24px;
 }
 
 .navbar .navbar__right .navbar__right-list li a{
@@ -369,9 +368,3 @@
     padding-top: 140px;
     padding-bottom: 18px ;
 }
-
-
-
-
-
-
