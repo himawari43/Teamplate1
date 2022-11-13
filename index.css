@@ -23,7 +23,7 @@
     margin-top: 46px;
 }
 .navbar .navbar__left .navbar__left-logo{
-    font-weight: 700;
+    font-weight: 800;
     font-style: 20px;
     line-height: 24px;
 }
@@ -132,8 +132,9 @@
 }
 
 .b-section .b-section__right h2{
-    width: 435.69px;
+    max-width: 435.69px;
     height: 102.35px;
+    font-weight: 700;
     font-size: 48px;
     line-height: 100%;
     text-transform: capitalize;
@@ -142,7 +143,7 @@
 }
 
 .b-section .b-section__right p{
-    width: 392.22px;
+    max-width: 392.22px;
     height: 83.16px;
     font-style: normal;
     font-weight: 600;
@@ -155,5 +156,222 @@
 }
 
 .b-section .b-section__right i.mobile{
+    display: none;
+}
+
+
+/*==== custom section ====*/
+
+
+.cus-section{
+    display: flex;
+    align-items: center;
+    margin-top: 136px; 
+    justify-content: space-between;
+}
+
+.cus-section .cus-section__left h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #272D38;
+    max-width: 435.69px;
+    height: auto;
+}
+
+.cus-section .cus-section__left P{
+    max-width: 392.22px;
+    height: auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #272D38;
+    margin-top: 26px;
+    margin-bottom: 46px;
+}
+
+.cus-section .cus-section__left i.icon-mobile{
+    display: none;
+}
+.cus-section .cus-section__right img{
+    width: 100%;
+}
+
+
+/*==== testimonial section===*/
+
+
+.t-section{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t-section .t-section__text{
+    max-width: 122px;
+    height: auto;
+    font-weight: 600;
+    font-size: 16px;   
+    color: #272D38;
+}
+
+
+.t-section .t-section__heading{
+    font-size: 48px;
+    font-weight: 700;
+    color: #272D38;
+    max-width: 435px;
+    height: auto;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 39px;
+    text-align: center;
+}
+
+.t-section .t-section__list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.t-section .t-section__list .t-section__item{
+    width: 30%;
+    height: 335px;
+    border-radius: 10px;
+    background-color: #F6F6F6;
+    padding: 30px 20px;
+}
+
+.t-section .t-section__list .t-section__item img{
+    display: block;
+    margin: 0 auto 10px; 
+}
+
+.t-section .t-section__list .t-section__item h4{
+    margin-bottom: 30px;
+}
+
+.t-section .t-section__list .t-section__item p,
+.t-section .t-section__list .t-section__item h4{
+    text-align: center;
+}
+
+
+/*===Contact section===*/
+
+.contact-section{
+    display: flex;
+    margin-top: 136px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background-color: #F6F6F6;
+    margin-bottom: 138.57px;
+}
+
+.contact-section .contact-section__left img{
+    width: 100%;
+}
+
+.contact-section .contact-section__right h2{
+    max-width: 361px;
+    height: auto;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 100%;
+    color: #272D38;
+    margin-bottom: 16.2px;
+}
+.contact-section .contact-section__right p{
+    max-width: 360px;
+    height: auto;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #272D38;
+    margin-bottom: 32.03px;
+}
+
+.contact-section .contact-section__right button{
+    max-width: 167px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background-color:#8eadd5;
+    text-transform: uppercase;
+    font-weight: 700px ;
+    color: #fff;
+}
+
+
+
+
+/*===footer===*/
+
+.footer{
+   
+    background-color: #F6F6F6;
+    padding-top: 10px;
+}
+
+
+.footer .footer-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 105px;
     
 }
+
+.footer .footer-list .footer-item2 li,
+.footer .footer-list .footer-item3 li,
+.footer .footer-list .footer-item4 li{
+    list-style-type: none;
+}
+
+
+
+.footer .footer-list .footer-item1 h3,
+.footer .footer-list .footer-item2 h3,
+.footer .footer-list .footer-item3 h3,
+.footer .footer-list .footer-item4 h3{
+    max-width: 139.74px;
+    height: auto;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.footer .footer-list .footer-item1 p{
+    max-width: 189.29px;
+    height: auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.footer .footer-list .footer-item2 li,
+.footer .footer-list .footer-item3 li,
+.footer .footer-list .footer-item4 li{
+    max-width: 150px;
+    height: auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 200%;
+    text-transform: capitalize;
+    color: #272D38;
+}
+
+.footer .footer-bot{
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 18px ;
+}
+
+
+
+
+
+
